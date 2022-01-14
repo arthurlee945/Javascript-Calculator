@@ -1,0 +1,61 @@
+body{
+  background: linear-gradient( 45deg,#080808,#080808,#030116,#040121);
+  color: white;
+  user-select: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculatorBody{
+  width:240px;
+  position: relative;
+  border: 1.5px solid #f4f4f4;
+  background: linear-gradient(135deg,#080808,#080808,#191919,#262626, #080808,#080808 );
+  padding: 7px;
+  
+}
+.display1{
+  min-height:25px;
+  text-align:right;
+  font-size: 1.1rem;
+}
+.display2{
+  min-height:25px;
+  text-align:right;
+  font-size: 1.1rem;
+  color:#ffb400;
+  overflow-wrap: break-word;
+}
+
+button{
+  font-size: 1rem;
+  position: relative;
+  width:60px;
+  height: 60px;
+  color: #f2f2f2;
+  background-color: #001a1b;
+  border: none;
+  outline: 1px solid black;
+  &:hover{
+    color: #ffb400;
+    outline: 1px solid white;
+    z-index: 1;
+  }
+}
+.buttonAnimation{
+  
+}
+.wide{
+  width: 120px
+}
+
+
+/*const equation = /[/*+-]/;
+const confirmEquation = /[/*+-]$/;
+const secondConfirm =/\d[x/+‑*]{1}‑$/;
+const negative = /[-]/;
+const dotTester = /[.]/;
+const prevTester = /^[/*-+]/;*/
+      
+
